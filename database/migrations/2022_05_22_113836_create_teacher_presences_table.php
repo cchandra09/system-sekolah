@@ -17,7 +17,7 @@ class CreateTeacherPresencesTable extends Migration
             $table->id();
             $table->date('date');
             $table->bigInteger('teacher_id');
-            $table->bigInteher('presence_id');
+            $table->bigInteger('presence_id');
             $table->timestamps();
         });
     }
